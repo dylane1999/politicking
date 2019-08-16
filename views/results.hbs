@@ -1,0 +1,39 @@
+<br>
+
+<ul>
+  {{#each data.candidates }}
+
+  <li>{{ name }} ( {{ alignment }} % )</li>
+  <br>
+
+  <div class="progress">
+    <div id="matchbar" class="progress-bar" role="progressbar" style="width: {{ alignment }}%"
+      aria-valuenow="{{ alignment }}" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+<br>
+
+  <div class="ui grid">
+    <div class="four wide column">
+      <div class="ui card">
+        <div class="image">
+          <img src="/images/{{ name }}.png" alt="{{ name }}">
+
+        </div>
+        <div class="content">
+          <a class="header">{{ name }}</a>
+        </div>
+      </div>
+    </div>
+    <div class="one wide column"></div>
+    <div class="nine wide column"> <span>{{bio}}</span></div>
+    <div class="two wide column"></div>
+  </div>
+  <br>
+
+
+
+  <hr>
+  <br>
+  {{/each}}
+</ul>
+

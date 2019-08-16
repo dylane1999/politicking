@@ -1,0 +1,109 @@
+body {
+  background-color: whitesmoke;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+#main {
+
+  background-color: rgba(7, 6, 6, 0);
+  font-family: Helvetica, Arial, sans-serif;
+}
+#flex{
+ position: fixed;
+ left: 300px;;
+}
+
+#float{
+  right: 400px;
+}
+
+#centerme{
+  text-align: center;
+}
+.flex-container {
+
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  min-width: 300px;
+}
+
+#greeting{
+color: black;
+text-align: center;
+letter-spacing: -1px;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: underline;
+
+}
+
+#git{
+  position: relative;
+}
+
+.flex-container > div {
+  margin: 10px;
+  padding: 20px;
+  flex-grow: 2;
+  font-size: 30px;
+}
+#overall{ 
+  background: url(/images/spread.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+
+#maintext {
+  color: black;
+  font-family: Helvetica, sans-serif;
+  letter-spacing: -1px;
+}
+
+#grids {
+  text-align: center;
+}
+
+/*rgba(255, 255, 255, 0.876)--->*/
+
+#buttonsp {
+  color: rgba(0, 0, 0, 0.938);
+  background-color: rgba(255, 255, 255, 0.959);
+  text-align: center;
+
+}
+#buttons {
+  text-align: center;
+
+}
+#pre {
+  color: rgb(78, 78, 78);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: +0.5px;
+}
+a {
+  color: rgb(30, 160, 221);
+}
+#navbar {
+  color: black;
+  background-color: purple;
+}
+@media only screen and (max-width: 700px) {
+  body {
+    background-color: aqua;
+  }
+  
+}
+#politickbar {
+  font-family: "Monoton", cursive;
+  text-align: center;
+  text-decoration: underline;
+  color: whitesmoke;
+  letter-spacing: +1px;
+}
+
+#matchbar {
+  background-color: rgba(9, 16, 116, 0.781);
+}
