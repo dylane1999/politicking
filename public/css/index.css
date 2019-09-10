@@ -1,6 +1,15 @@
 body {
   background-color: whitesmoke;
+  background: url(/images/usabuilding.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+#marginize{
+  margin: 20px;
+  list-style-type: none;
 }
 
 #main {
@@ -49,12 +58,7 @@ text-decoration: underline;
   flex-grow: 2;
   font-size: 30px;
 }
-#overall{ 
-  background: url(/images/spread.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;}
+
 
 #maintext {
   color: black;
@@ -83,12 +87,20 @@ text-decoration: underline;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   letter-spacing: +0.5px;
 }
+
+#menu{
+  font-family: 'Syncopate', sans-serif;
+  font-weight: 700;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
 a {
   color: rgb(30, 160, 221);
 }
 #navbar {
   color: black;
-  background-color: purple;
+  background-color: #8EB1D1;
 }
 @media only screen and (max-width: 700px) {
   body {
@@ -97,11 +109,11 @@ a {
   
 }
 #politickbar {
-  font-family: "Monoton", cursive;
+  font-family: 'Syncopate', sans-serif;
   text-align: center;
-  text-decoration: underline;
-  color: whitesmoke;
-  letter-spacing: +1px;
+  font-weight: 700;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 #matchbar {
