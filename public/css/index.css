@@ -48,8 +48,18 @@ text-decoration: underline;
 
 }
 
+#marginize{
+  margin: 20px;
+}
+
 #git{
-  position: relative;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+
+#gitpics{
+  border-radius: 50%;
 }
 
 .flex-container > div {
@@ -92,7 +102,6 @@ text-decoration: underline;
   font-family: 'Syncopate', sans-serif;
   font-weight: 700;
   color: white;
-  text-shadow: 2px 2px 4px #000000;
 }
 
 a {
@@ -102,18 +111,25 @@ a {
   color: black;
   background-color: #8EB1D1;
 }
-@media only screen and (max-width: 700px) {
-  body {
-    background-color: aqua;
-  }
+
   
-}
 #politickbar {
   font-family: 'Syncopate', sans-serif;
   text-align: center;
   font-weight: 700;
   color: white;
   text-shadow: 2px 2px 4px #000000;
+}
+
+#politickbar1 {
+  font-family: 'Syncopate', sans-serif;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+#toggle{
+  position: absolute;
+  right: 30px;
+  top: 0px;
 }
 
 #matchbar {
